@@ -9,3 +9,6 @@ from .vanilla_template import *
 from .openai_memory_template import *
 from .vanilla-ziyu import *
 from .scholar-ziyu import *
+from .harsha_vanilla_agent import *
+from .harsha_scholar_agent import *
+from .harsha_own_agent import *

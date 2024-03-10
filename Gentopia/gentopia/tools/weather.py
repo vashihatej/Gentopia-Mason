@@ -7,7 +7,7 @@ from gentopia.tools.basetool import *
 
 class Weather(BaseTool):
     api_key: str = os.getenv("WEATHER_API_KEY")
-    URL_CURRENT_WEATHER = "http://api.weatherapi.com/v1/current.json"
+    URL_CURRENT_WEATHER = "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m"
     URL_FORECAST_WEATHER = "http://api.weatherapi.com/v1/forecast.json"
 
 
